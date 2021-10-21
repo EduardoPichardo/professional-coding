@@ -1,0 +1,102 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  h1{
+    text-align: center;
+    color: coral;
+    font-family: 'Bodoni';
+  }
+  div#root-app {
+    width: 306px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  form#ingreso {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  form#ingreso > *{
+    margin-bottom: 2.5vh;
+  }
+  form#ingreso > label{
+    color: coral;
+    font-size: 22px;
+  }
+  form#ingreso > input{
+    border-radius: 7px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    border: solid 1px coral;
+    outline: none;
+  }
+  form#ingreso > select{
+    border-radius: 7px;
+    height: 44px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    border: solid 1px coral;
+    outline: none;
+  }
+  form#ingreso > #BtnIngreso{
+    height: 44px;
+    border: none;
+    background-color: coral;
+    color: #FFF;
+    border-radius: 7px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+div#opcionesUsuario > #BtnIngreso{
+    height: 48px;
+    width: 30%;
+    padding: 0;
+    border: none;
+    background-color: coral;
+    color: #FFF;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#opcionesUsuario{
+    display: none;
+    width: 270px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#interaccion{
+  display: none;
+  height: 300px;
+  margin-top: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+div#interaccion > input{
+  border-radius: 7px;
+  width: 264px;
+  height: 44px;
+  background-color: black;
+  color: white;
+  border: solid 1px coral;
+  outline: none;
+}
+div#interaccion > p{
+  color: white;
+  font-size: 1.5em;
+}
+#incorrecto {
+  color: white;
+}
+#saldo {
+  color: white;
+}
